@@ -1,11 +1,14 @@
+// src/app/layout/layout.ts
 import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { Header} from '../components/header/header';
+import { Footer } from '../components/footer/footer';
 
 @Component({
   selector: 'app-layout',
-  imports: [],
+  standalone: true,
+  imports: [RouterOutlet, Header, Footer],
   templateUrl: './layout.html',
-  styleUrl: './layout.css'
+  styleUrls: ['./layout.css']
 })
-export class Layout {
-
-}
+export class Layout {}
