@@ -1,0 +1,1 @@
+import{Aa as o,Ba as e,Da as n,oa as c}from"./chunk-PIOIYVYG.js";var m=class a{static \u0275fac=function(t){return new(t||a)};static \u0275cmp=c({type:a,selectors:[["app-contacto"]],decls:5,vars:0,template:function(t,p){t&1&&(o(0,"main")(1,"h2"),n(2,"Contacto"),e(),o(3,"p"),n(4,"Escr\xEDbenos a: contacto@manaco.com"),e()())},encapsulation:2})};export{m as ContactoComponent};

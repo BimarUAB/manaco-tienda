@@ -1,1 +1,0 @@
-import{Ea as e,Fa as o,Ha as n,pa as c}from"./chunk-GSM46JUD.js";var i=class a{static \u0275fac=function(t){return new(t||a)};static \u0275cmp=c({type:a,selectors:[["app-contacto"]],decls:5,vars:0,template:function(t,s){t&1&&(e(0,"main")(1,"h2"),n(2,"Contacto"),o(),e(3,"p"),n(4,"Escr\xEDbenos a: contacto@manaco.com"),o()())},encapsulation:2})};export{i as Contacto};
