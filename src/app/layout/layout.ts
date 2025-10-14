@@ -11,4 +11,4 @@ import { Footer } from '../components/footer/footer';
   templateUrl: './layout.html',
   styleUrls: ['./layout.css']
 })
-export class Layout {}
+export class LayoutComponent {}
