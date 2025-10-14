@@ -1,14 +1,6 @@
 import { Routes } from '@angular/router';
 import { Layout } from './layout/layout';
-import { HomeComponent } from './pages/home/home.component';
-import { ServiciosComponent } from './pages/servicios/servicios.component';
-import { ContactoComponent } from './pages/contacto/contacto.component';
 
-const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'servicios', component: ServiciosComponent },
-  { path: 'contacto', component: ContactoComponent }
-];
 export const routes: Routes = [
   {
     path: '',
@@ -17,17 +9,17 @@ export const routes: Routes = [
       {
         path: '',
         loadComponent: () =>
-          import('./pages/home/home.component').then(m => m.HomeComponent)
+          import('./pages/home/home').then(m => m.Home)
       },
       {
         path: 'servicios',
         loadComponent: () =>
-          import('./pages/servicios/servicios.component').then(m => m.ServiciosComponent)
+          import('./pages/servicios/servicios').then(m => m.Servicios)
       },
       {
         path: 'contacto',
         loadComponent: () =>
-          import('./pages/contacto/contacto.component').then(m => m.ContactoComponent)
+          import('./pages/contacto/contacto').then(m => m.Contacto)
       }
     ]
   }
